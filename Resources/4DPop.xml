@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tools name=":xliff:JsonVal_formTitle" picture="jsonValidator.png" helptip=":xliff:JsonVal_ToolHelpTip" >
+<tool name="JsonValidator" method="JV_LaunchJsonValidator"/>
+</tools>

@@ -1,0 +1,1 @@
+﻿{    "firstName": "John",    "lastName": "Doe",    "gender": "M",    "birthday": {        "description": "Birthday is not mandatory",        "day": 24,	"month": 14,	"year": 1900    },    "emailAddress":"john.doe@host.com"}

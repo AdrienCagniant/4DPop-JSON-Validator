@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--Translation file.
+This file is distributed under the same license as the product package.-->
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="mainWindow">
+            <trans-unit id="1" resname="JsonVal_formTitle">
+               <source>JSON Validator</source>
+               <target>JSON Validator</target>
+            </trans-unit>
+            <trans-unit id="2" resname="JsonVal_clearJson">
+               <source>Clear JSON</source>
+               <target>Clear JSON</target>
+            </trans-unit>
+            <trans-unit id="3" resname="JsonVal_clearSchema">
+               <source>Clear schema</source>
+               <target>Clear schema</target>
+            </trans-unit>
+            <trans-unit id="4" resname="JsonVal_clearJson">
+               <source>Clear JSON</source>
+               <target>Clear JSON</target>
+            </trans-unit>
+            <trans-unit id="5" resname="JsonVal_validateSchema">
+               <source>Validate schema</source>
+               <target>Validate schema</target>
+            </trans-unit>
+            <trans-unit id="6" resname="JsonVal_validateJson">
+               <source>Validate JSON</source>
+               <target>Validate JSON</target>
+            </trans-unit>
+            <trans-unit id="7" resname="JsonVal_positionInFile">
+               <source>Position in file</source>
+               <target>Position in file</target>
+            </trans-unit>
+            <trans-unit id="8" resname="JsonVal_colLine">
+               <source>Line</source>
+               <target>Line</target>
+            </trans-unit>      
+            <trans-unit id="9" resname="JsonVal_colPathInSchema">
+               <source>Path in the schema</source>
+               <target>Path in the schema</target>
+            </trans-unit>      
+            <trans-unit id="10" resname="JsonVal_colPathInJson">
+               <source>Path in the JSON</source>
+               <target>Path in the JSON</target>
+            </trans-unit>      
+            <trans-unit id="11" resname="JsonVal_colErrMessage">
+               <source>Error message</source>
+               <target>Error message</target>
+            </trans-unit>
+            <trans-unit id="12" resname="JsonVal_openValidatorInBrowser">
+               <source>Open another JSON validator in your browser</source>
+               <target>Open another JSON validator in your browser</target>
+            </trans-unit>                          
+            <trans-unit id="13" resname="JsonVal_open4DForm">
+               <source>Open 4D JSON form</source>
+               <target>Open 4D JSON form</target>
+            </trans-unit>
+            <trans-unit id="14" resname="JsonVal_saveJson">
+               <source>Save JSON</source>
+               <target>Save JSON</target>
+            </trans-unit>                                                                                                                    
+            <trans-unit id="15" resname="JsonVal_saveSchema">
+               <source>Save schema</source>
+               <target>Save schema</target>
+            </trans-unit>
+            <trans-unit id="16" resname="JsonVal_launchJSONValidator">
+               <source>Launch JSON Validator</source>
+               <target>Launch JSON Validator</target>
+            </trans-unit>
+            <trans-unit id="17" resname="JsonVal_pathInvalid">
+               <source>Invalid path</source>
+               <target>Invalid path</target>
+            </trans-unit>
+            <trans-unit id="18" resname="JsonVal_ToolHelpTip">
+               <source>JSON Validator</source>
+               <target>JSON Validator</target>
+            </trans-unit>
+         </group>
+         <group resname="comparisonMessages">
+			<trans-unit id="1" resname="JsonVal_jsonValidated">
+               <source>Your JSON validates against the schema loaded.</source>
+               <target>Your JSON validates against the schema loaded.</target>
+            </trans-unit>
+            <trans-unit id="2" resname="JsonVal_jsonNotValidated">
+               <source>Your JSON is not validated. Number of errors according the JSON schema loaded: </source>
+               <target>Your JSON is not validated. Number of errors according the JSON schema loaded: </target>
+            </trans-unit>
+            <trans-unit id="3" resname="JsonVal_invalidJson">
+               <source>Your JSON is not valid.</source>
+               <target>Your JSON is not valid.</target>
+            </trans-unit>          
+           	<trans-unit id="4" resname="JsonVal_schemaValidated">
+               <source>Your schema validates against the JSON SCHEME draft-04, meta-schema defined by JSON. See: </source>
+               <target>Your schema validates against the JSON SCHEME draft-04, meta-schema defined by JSON. See: </target>
+            </trans-unit>
+            <trans-unit id="5" resname="JsonVal_schemaNotValidated">
+               <source>Your schema is not validated. Number of error according the JSON SCHEME draft-04:  </source>
+               <target>Your schema is not validated. Number of error according the JSON SCHEME draft-04:  </target>
+            </trans-unit>
+            <trans-unit id="6" resname="JsonVal_urlJsonMetaSchema">
+               <source>www.json-schema.org</source>
+               <target>www.json-schema.org</target>
+            </trans-unit> 
+    	 </group>
+         <group resname="errorMessages">
+			<trans-unit id="1" resname="JsonVal_errorJsonInvalid">
+               <source>An error occured, your JSON is not valid.</source>
+               <target>An error occured, your JSON is not valid.</target>
+            </trans-unit>                                  
+         </group>
+      </body>
+   </file>
+</xliff>
