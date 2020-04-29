@@ -1,0 +1,1 @@
+﻿PathPicker SET SOURCE TYPE ( widget ; type )   -> widget (Text)   -> type (Long Integer) - 0 = folder | 1 (default) = document  ________________________________________________________

@@ -1,0 +1,1 @@
+﻿widget := path_picker_Get_object ( widget ; object )   -> widget (Text) - Name of the widget object   -> object (Pointer) - Object to populate   <- widget (Pointer) - Pointer to the widget object  ________________________________________________________

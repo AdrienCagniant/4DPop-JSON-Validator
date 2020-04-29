@@ -1,0 +1,1 @@
+﻿pathPicker SET FILE TYPES ( widget ; type ; Param_3 ; … ; N )   -> widget (Text)   -> type (Text)   -> Param_3 ; … ; N (Text)  ________________________________________________________

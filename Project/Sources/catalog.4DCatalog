@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="4D JSON Validator" uuid="9944B19741DE4C908AF4BE4C959D53C5" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="4DPop JSON Validator" structure_file_name="4D JSON Validator" data_file_path="\4D JSON Validator.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

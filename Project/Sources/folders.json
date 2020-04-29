@@ -1,0 +1,38 @@
+﻿{
+	"doc": {
+		"methods": [
+			"COMPILER_doc",
+			"doc_Get_folder_pathname",
+			"doc_getFromPath",
+			"doc_volumeName",
+			"test_doc"
+		]
+	},
+	"PATH PICKER": {
+		"methods": [
+			"COMPILER_PATH PICKER",
+			"HDI_PATH_PICKER",
+			"path_picker_Get_object",
+			"path_picker_INIT",
+			"path_picker_SET_LABEL",
+			"path_picker_SET_TEXT_ATTRIBUTE",
+			"path_picker_UPDATE_UI",
+			"PathPicker Get message",
+			"PathPicker Get option",
+			"PathPicker Get placeholder",
+			"PathPicker Get type",
+			"pathPicker SET DIRECTORY",
+			"pathPicker SET FILE TYPES",
+			"pathPicker SET MESSAGE",
+			"PathPicker SET OPTIONS",
+			"PathPicker SET PLACEHOLDER",
+			"PathPicker SET SELECTION OPTION",
+			"PathPicker SET TYPE"
+		],
+		"forms": [
+			"HDI_PATH_PICKER",
+			"PATH PICKER"
+		]
+	},
+	"trash": {}
+}

@@ -1,0 +1,1 @@
+﻿enabled := PathPicker Get option ( widget ; option )   -> widget (Text)   -> option (Long Integer) -  1 = browse button | 2 = show on disk | 3 = copy path | 4 = open item   <- enabled (Boolean)  ________________________________________________________

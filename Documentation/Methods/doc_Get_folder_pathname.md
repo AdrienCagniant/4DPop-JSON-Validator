@@ -1,0 +1,1 @@
+﻿pathname := doc_Get_folder_pathname ( pathname ; path )   -> pathname (Text)   -> path (Text)   <- pathname (Text)  ________________________________________________________

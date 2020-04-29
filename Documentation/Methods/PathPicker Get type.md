@@ -1,0 +1,1 @@
+﻿type := PathPicker Get type ( widget )   -> widget (Text) - Name of the widget object   <- type (Long Integer) - 0 = folder | 1 = document  ________________________________________________________

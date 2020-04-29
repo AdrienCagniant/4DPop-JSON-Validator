@@ -1,0 +1,1 @@
+﻿result := doc_getFromPath ( entrypoint ; path ; separator )   -> entrypoint (Text)   -> path (Text)   -> separator (Text)   <- result (Text)  -  values for selector :        "parent"       "fullname"        "shortname"        "extension"    if $3 is omitted, the separator used is the current platform separator.

@@ -1,0 +1,607 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": ":xliff:JsonVal_formTitle",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt",
+		"orientation": "landscape"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1080,
+					"height": 720,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"stroke": "#FFFFFF",
+					"strokeWidth": 0.1
+				},
+				"Line1": {
+					"type": "line",
+					"top": 0,
+					"left": 540,
+					"height": 720,
+					"visibility": "hidden",
+					"stroke": "#DC143C"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 390,
+					"left": 0,
+					"width": 1080,
+					"visibility": "hidden",
+					"stroke": "#DC143C"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 40,
+					"height": 720,
+					"visibility": "hidden",
+					"stroke": "#DC143C"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 0,
+					"left": 520,
+					"height": 720,
+					"visibility": "hidden",
+					"stroke": "#DC143C"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 0,
+					"left": 560,
+					"height": 720,
+					"visibility": "hidden",
+					"stroke": "#DC143C"
+				},
+				"Line7": {
+					"type": "line",
+					"top": 0,
+					"left": 1040,
+					"height": 720,
+					"visibility": "hidden",
+					"stroke": "#DC143C"
+				}
+			}
+		},
+		{
+			"objects": {
+				"rectJSON": {
+					"type": "rectangle",
+					"top": 85,
+					"left": 560,
+					"width": 480,
+					"height": 400,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 575,
+					"left": 40,
+					"width": 1000,
+					"height": 34,
+					"sizingX": "grow",
+					"dataSource": "messageComparisonSchemas",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"rectSchema": {
+					"type": "rectangle",
+					"top": 85,
+					"left": 40,
+					"width": 480,
+					"height": 400,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"pathSchema": {
+					"type": "subform",
+					"top": 27,
+					"left": 35,
+					"width": 487,
+					"height": 23,
+					"sizingX": "grow",
+					"dataSourceTypeHint": "text",
+					"detailForm": "PATH PICKER",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/pathSchema.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"pathJson": {
+					"type": "subform",
+					"top": 27,
+					"left": 555,
+					"width": 487,
+					"height": 23,
+					"sizingX": "grow",
+					"dataSourceTypeHint": "text",
+					"detailForm": "PATH PICKER",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/pathJson.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"varSearchPicker": {
+					"type": "subform",
+					"top": 52,
+					"left": 36,
+					"width": 200,
+					"height": 30,
+					"dataSource": "vSearch",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/varSearchPicker.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"variableSchema": {
+					"type": "input",
+					"top": 90,
+					"left": 45,
+					"width": 455,
+					"height": 390,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vSchemaLoaded",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"showSelection": true,
+					"styledText": true,
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/variableSchema.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"variableJson": {
+					"type": "input",
+					"top": 90,
+					"left": 565,
+					"width": 455,
+					"height": 390,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vJsonLoaded",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"showSelection": true,
+					"styledText": true,
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/variableJson.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 500,
+					"left": 41,
+					"width": 140,
+					"height": 19,
+					"visibility": "hidden",
+					"sizingY": "move",
+					"text": ":xliff:JsonVal_validateSchema",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 500,
+					"left": 561,
+					"width": 140,
+					"height": 19,
+					"sizingY": "move",
+					"text": ":xliff:JsonVal_validateJson",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ButtonOpen4DForm": {
+					"type": "button",
+					"top": 500,
+					"left": 761,
+					"width": 140,
+					"height": 19,
+					"visibility": "hidden",
+					"sizingY": "move",
+					"text": ":xliff:JsonVal_open4DForm",
+					"focusable": false,
+					"method": "ObjectMethods/ButtonOpen4DForm.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"lbError": {
+					"type": "listbox",
+					"top": 615,
+					"left": 40,
+					"width": 1000,
+					"height": 80,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "lbError",
+					"focusable": false,
+					"sortable": false,
+					"rowHeightAutoMax": "1em",
+					"headerHeight": "2em",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"method": "ObjectMethods/lbError.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Colonne1",
+							"dataSource": "errPosition",
+							"width": 60,
+							"minWidth": 50,
+							"maxWidth": 32000,
+							"stroke": "#800000",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 11,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": ":xliff:JsonVal_positionInFile",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Pied1",
+								"timeFormat": "hh_mm_ss",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "errLine",
+							"dataSourceTypeHint": "number",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"visibility": "hidden",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 11,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": ":xliff:JsonVal_colLine",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Footer3",
+								"timeFormat": "hh_mm_ss",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							}
+						},
+						{
+							"name": "Column5",
+							"dataSource": "errValidationSchemaPath",
+							"width": 280,
+							"minWidth": 100,
+							"maxWidth": 32000,
+							"enterable": false,
+							"fontFamily": ".SF NS Text",
+							"fontSize": 11,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": ":xliff:JsonVal_colPathInSchema",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Footer5",
+								"timeFormat": "hh_mm_ss",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							}
+						},
+						{
+							"name": "Column1",
+							"dataSource": "errValidationJsonPath",
+							"width": 250,
+							"minWidth": 100,
+							"maxWidth": 600,
+							"enterable": false,
+							"fontFamily": ".SF NS Text",
+							"fontSize": 11,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": ":xliff:JsonVal_colPathInJson",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Footer1",
+								"timeFormat": "hh_mm_ss",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "errValidationMsg",
+							"width": 270,
+							"minWidth": 200,
+							"maxWidth": 1000,
+							"enterable": false,
+							"fontFamily": ".SF NS Text",
+							"fontSize": 11,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": ":xliff:JsonVal_colErrMessage",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Footer2",
+								"timeFormat": "hh_mm_ss",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 11
+							}
+						}
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 575,
+					"left": 40,
+					"width": 1000,
+					"height": 30,
+					"sizingX": "grow",
+					"dataSource": "messageComparisonJson",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Invisible Button": {
+					"type": "button",
+					"top": 15,
+					"left": 540,
+					"width": 1,
+					"height": 515,
+					"sizingY": "grow",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line": {
+					"type": "line",
+					"top": 15,
+					"left": 540,
+					"width": 1,
+					"height": 515,
+					"sizingY": "grow",
+					"stroke": "#808080"
+				},
+				"Invisible Button3": {
+					"type": "button",
+					"top": 545,
+					"left": 19,
+					"width": 1042,
+					"height": 1,
+					"sizingX": "grow",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Line3": {
+					"type": "line",
+					"top": 545,
+					"left": 20,
+					"width": 1040,
+					"sizingX": "grow",
+					"stroke": "#808080"
+				},
+				"invisibleGap": {
+					"type": "button",
+					"top": 16,
+					"left": 0,
+					"width": 445,
+					"height": 5,
+					"display": false
+				},
+				"buttonSearchResultDown": {
+					"type": "button",
+					"top": 57,
+					"left": 336,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"focusable": false,
+					"icon": "/RESOURCES/images/arrowDown.png",
+					"textPlacement": "center",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/buttonSearchResultDown.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"variableSearchResult": {
+					"type": "input",
+					"top": 60,
+					"left": 250,
+					"width": 40,
+					"height": 14,
+					"visibility": "hidden",
+					"dataSource": "String:C10(vRangeSelected)+\"/\"+String:C10(vFound)",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"buttonSearchResultUp": {
+					"type": "button",
+					"top": 57,
+					"left": 316,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"focusable": false,
+					"icon": "/RESOURCES/images/arrowUp.png",
+					"textPlacement": "center",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/buttonSearchResultUp.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"toolButton": {
+					"type": "pictureButton",
+					"top": 56,
+					"left": 488,
+					"width": 38,
+					"height": 23,
+					"sizingX": "move",
+					"rowCount": 4,
+					"picture": "/RESOURCES/images/action.png",
+					"loopBackToFirstFrame": true,
+					"method": "ObjectMethods/toolButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"invisibleGap1": {
+					"type": "button",
+					"top": 17,
+					"left": 580,
+					"width": 498,
+					"height": 5,
+					"sizingX": "move",
+					"display": false
+				},
+				"invisibleGap3": {
+					"type": "button",
+					"top": 705,
+					"left": 26,
+					"width": 3,
+					"height": 15,
+					"sizingY": "move",
+					"display": false
+				}
+			}
+		}
+	]
+}

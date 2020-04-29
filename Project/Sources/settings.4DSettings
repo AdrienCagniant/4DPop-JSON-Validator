@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="10">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<general execute_host_database_event="true" startup_environnement="1"/>
+		<sql>
+			<publication port_number="19812"/>
+		</sql>
+		<web>
+			<standalone_server>
+				<configuration port_number="80"/>
+			</standalone_server>
+		</web>
+		<server>
+			<network>
+				<options publication_name="4D JSON Validator" use_legacy_network_layer="false"/>
+			</network>
+		</server>
+		<compiler>
+			<options fat_binary="true"/>
+		</compiler>
+		<php ip_address="127.0.0.1"/>
+		<database>
+			<cache flush_buffer_delay="20s"/>
+		</database>
+	</com.4d>
+</preferences>

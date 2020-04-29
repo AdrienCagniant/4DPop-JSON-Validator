@@ -1,0 +1,1 @@
+﻿PathPicker SET OPTIONS ( widget ; enabled ; option ; Param_4 ; … ; N )   -> widget (Text)   -> enabled (Boolean)   -> option (Long Integer) -  1 = browse button | 2 = show on disk | 3 = copy path | 4 = open item | 0 = all   -> Param_4 ; … ; N (Long Integer)  ________________________________________________________

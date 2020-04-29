@@ -1,0 +1,1 @@
+﻿path_picker_SET_TEXT_ATTRIBUTE ( widget ; name ; value )   -> widget (Text) - Name of the widget object   -> name (Text) - name of the attribute to set   -> value (Text) - {Value}  ________________________________________________________

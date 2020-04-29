@@ -1,0 +1,1 @@
+﻿message := PathPicker Get message ( widget )   -> widget (Text)   <- message (Text)  ________________________________________________________
